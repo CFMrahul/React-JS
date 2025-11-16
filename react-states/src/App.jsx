@@ -1,4 +1,3 @@
-import "index.css"
 import { useState } from "react"
 import AddUser from "./utils/AddUser"
 import DisplayUser from "./utils/DisplayUser"
