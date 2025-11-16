@@ -26,7 +26,7 @@ const handleObject = (name) => {
 }
   return (
     <>
-      <h1>Updating Array in state</h1>
+      <h1>Updating Array in states</h1>
       <input type="text" placeholder="Enter name" onChange={(e)=>handleUser(e.target.value)} />
       {data.map((item, index) => (
         <h3 key={index}>{item}</h3>
