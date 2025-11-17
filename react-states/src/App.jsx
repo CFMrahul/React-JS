@@ -4,9 +4,8 @@ import DisplayUser from "./utils/DisplayUser"
 import UpObject from "./utils/UpObject"
 import UpArray from "./utils/UpArray"
 import ActionState from "./utils/ActionState"
-
-
-
+import UseId from "./utils/UseId"
+import Hook from "./Hooks/Hook"
 function App() {
   // const [user, setUser] = useState('')
   return (
@@ -18,7 +17,11 @@ function App() {
 
      {/* <UpArray/> */}
 
-     <ActionState/>
+     {/* <ActionState/> */}
+
+     {/* <UseId/> */}
+
+     <Hook/>
     </>
   )
 }
