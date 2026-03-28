@@ -49,5 +49,16 @@ function Counter() {
   );
 }
 ```
+## Props :-
 
+- The full form of "Props" is "properties," which is used to pass data within React components.
+- It provides a standard mechanism for sending data from a parent component to a child component.
+- Props are read-only, meaning a child component cannot modify them directly.
+- They help in creating reusable components by making them dynamic and flexible.
+- Props are passed into a component in the form of a JavaScript object.
+- They behave similarly to HTML attributes but are more powerful and dynamic.
+- Through Props, we can pass various types of data, including text, numbers, arrays, objects, and functions.
+- They follow a unidirectional data flow, meaning data always flows from top to bottom.
+- We can use PropTypes or TypeScript for Props validation.
+- Props play a crucial role in making the UI dynamic in React.
 
