@@ -1,7 +1,7 @@
-function Card( {title, show} ) {
-    return ( 
+function Card({ title, show }) {
+  return (
     <>
-    <div className="md:max-w-sm w-full p-6 rounded-xl shadow-xl bg-black border border-zinc-800 hover:border-white transition-all duration-300 hover:transform hover:scale-105 group">
+      <div className="md:max-w-sm w-full p-6 rounded-xl shadow-xl bg-black border border-zinc-800 hover:border-white transition-all duration-300 hover:transform hover:scale-105 group">
         <div className="relative overflow-hidden rounded-lg mb-6">
           <img
             src="https://images.pexels.com/photos/6964137/pexels-photo-6964137.jpeg"
@@ -44,7 +44,8 @@ function Card( {title, show} ) {
           </div>
         </div>
       </div>
-    </> );
+    </>
+  );
 }
 
 export default Card;
