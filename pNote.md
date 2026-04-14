@@ -62,3 +62,4 @@ function Counter() {
 - We can use PropTypes or TypeScript for Props validation.
 - Props play a crucial role in making the UI dynamic in React.
 
+## useCallback :-
